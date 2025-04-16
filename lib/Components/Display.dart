@@ -22,6 +22,7 @@ class Display extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.end,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
+          SizedBox(height: 60,),
           Align(
             alignment: Alignment.centerRight,
             child: FittedBox(
@@ -29,7 +30,7 @@ class Display extends StatelessWidget {
               child: Text(
                 expression,
                 style: TextStyle(
-                  fontSize: 24,
+                  fontSize: 40,
                   color: Colors.white70,
                   fontFamily: GoogleFonts.poppins().fontFamily,
                 ),

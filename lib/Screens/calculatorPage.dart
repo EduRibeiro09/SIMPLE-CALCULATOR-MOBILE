@@ -24,6 +24,7 @@ class CalculatorPageState extends State<CalculatorPage> {
     return Scaffold(
       backgroundColor: const Color.fromRGBO(48, 48, 48, 1),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
         children: [
           Display(
             expression: memory.expression,
